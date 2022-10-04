@@ -1,7 +1,12 @@
 #REX PALLATH 100847414 INFR 3120 WEB & SCRIPT PROGRAMMING#
 ----------------------------------------------------------
 
-Website link: https://rexpallath.000webhostapp.com/ (for some reason 000webhost displays captions without styling, even though it work locally without issue, the captions are not black, rather white and centered below the videos)
+Website link: https://rexpallath.000webhostapp.com/
+
+!!Please note!!
+ -000webhost which my site runs on doesn't open when using campus air wifi due to some firewall restriction most likley.
+ -for some reason 000webhost displays captions without styling, even though it work locally without issue, the captions are not black, rather white and centered below the videos
+
 
 Hello, thanks for taking a look at my website, I had tons of fun playing around to make my website where it is now.
 
