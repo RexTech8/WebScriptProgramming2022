@@ -127,20 +127,11 @@ video{
     /* applied clearfix (see Readme for more info) */
 }
 
-
-figure
-{ 
-    text-align: center;
-    font-size: 20px;
-    color:white; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}    /* Caption Styling */
-
 video.projects{
     float: none;
     margin-top: 25px;
     background-color: black;
-    border: 3px #E0DFDC solid 
+    border: 3px #E0DFDC solid;
 }
 
 
@@ -152,17 +143,24 @@ h1{
 
 h2{
     font-family: 'Arial Narrow', Arial, sans-serif;
-    color: #E0DFDC
-}
-
-h4 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #E0DFDC
+    color: #E0DFDC;
 }
 
 h3{
     font-family:Arial, Helvetica, sans-serif;
-    color: #E0DFDC
+    color: #E0DFDC;
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E0DFDC;
+}
+
+h5{
+    text-align: center;
+    font-size: 20px;
+    color:white; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p{
