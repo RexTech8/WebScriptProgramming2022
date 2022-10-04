@@ -141,14 +141,6 @@ video.projects{
     border: 3px #F4F3F8 solid;
 }/* centered video for easier viewing on mobile screens */
 
-figcaption  
-{ 
-    text-align: center;
-    font-size: 20px;
-    color:white; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} /* Caption Styling */
-
 h1{
     font-family: "lucida handwriting", "Segoe Script" ,"Times New Roman";
     color: #E0D817;
@@ -160,14 +152,21 @@ h2{
     color: #F4F3F8
 }
 
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #F4F3F8
+}
+
 h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #F4F3F8
 }
 
-h3{
-    font-family:Arial, Helvetica, sans-serif;
-    color: #F4F3F8
+h5{
+    text-align: center;
+    font-size: 20px;
+    color:white; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p{
