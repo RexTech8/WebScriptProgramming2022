@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* CSS file for desktop viewing */
 
 body{
     margin: 0;
@@ -12,7 +13,16 @@ margin: auto;
 text-align: center;
 padding: 5px;
 width: 90%;
-}
+} 
+
+@keyframes shape-shift{
+ 0% {transform:skew(0deg);} 
+ 25% {transform:skew(20deg);}
+ 50% {transform:skew(0deg);}  
+75% {transform:skew(-20deg);} 
+100% {transform:skew(0deg);} 
+}/* Keyframes for animating the Banner's main Heading */
+
 
 #wrapper
 {
@@ -20,7 +30,7 @@ width: 90%;
     padding: 0;
     background: rgb(224,0,0);
     background: linear-gradient(90deg, rgba(224,0,0,1) 0%, rgba(0,126,224,1) 100%, rgba(0,212,255,1) 100%);
-}
+}/* Webpage background gradient from red to blue */
 
 
 
@@ -29,8 +39,7 @@ width: 90%;
     height: 100px;
     margin: auto;
     margin-bottom: 10px;
-    background-color: #007EE0
-
+    background-color: #007EE0;
 }
 
 
@@ -43,7 +52,6 @@ width: 90%;
     padding: 15px;
     background-color: #5F09E0;
     text-align: left;
-
 }
 
 .Form{
@@ -59,16 +67,13 @@ span{
     text-decoration-thickness: 3px;
     text-decoration-style: solid;
     text-decoration-color: #E0DFDC;
-}
+}/* used to change text-decoration of Welcome class */
 
 footer{
     padding: 15px;
     width: 90%;
     height: 5px;
     margin: auto;
-    
-
-
 }
 
 article{
@@ -82,6 +87,8 @@ article{
     content: "";
     clear: both;
     display: table;
+    /* above 3 lines are for a hack called clearfix I learned through W3schools
+     to fix elements from going outside their boundaries when using float, futher explanation in Readme file */
 }
 
 section{
@@ -97,6 +104,7 @@ section{
     content: "";
     clear: both;
     display: table;
+        /* applied clearfix (see Readme for more info) */
 }
 
 
@@ -109,38 +117,27 @@ aside{
 }
 
 video{
-    float: center;
+    float: none;
     margin: auto;
     background-color: black;
     border: 3px #E0DFDC solid;
     content: "";
     clear: both;
     display: table;
+    /* applied clearfix (see Readme for more info) */
 }
 
-.rendered-form{
-    font-family: 'Times New Roman', Times, serif;
-    color:#E0DFDC;
-    padding: 10px;
-    font-size: 20px;
-
-}
-
-.formbuilder{
-    margin-bottom: 50px;
-}
 
 figcaption  
 { 
-    position:bottom; 
     text-align: center;
     font-size: 20px;
     color:white; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-} 
+}    /* Caption Styling */
 
 video.projects{
-    float: center;
+    float: none;
     margin-top: 25px;
     background-color: black;
     border: 3px #E0DFDC solid 
@@ -149,7 +146,8 @@ video.projects{
 
 h1{
     font-family: "lucida handwriting", "Segoe Script" ,"Times New Roman";
-    color: #E0D817
+    color: #E0D817;
+    animation: shape-shift 5s infinite;     /* animation for Banner's Main Heading */
 }
 
 h2{
@@ -200,6 +198,7 @@ li a{
     content: "";
     clear: both;
     display: table;
+    /* applied clearfix (see Readme for more info) */
     
    
 }
@@ -209,6 +208,8 @@ li a:hover{
     color: #E00000;
     border-right: 2px solid #E00000;
     border-left: 2px solid #E00000;
-}
+    transform: skew(-20deg)scale(1.1);
+    transition: transform 0.5s;    /* animation for navbar buttons while hovering */
+}     /* properties for hovering over Navbar buttons */
 
 

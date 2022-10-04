@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* CSS file for Tablet viewing with color schemes that have more contrast than destop CSS */
 
 body{
     margin: 0;
@@ -14,12 +15,20 @@ padding: 5px;
 width: 90%;
 }
 
+@keyframes shape-shift{
+    0% {transform:skew(0deg);} 
+    25% {transform:skew(20deg);}
+    50% {transform:skew(0deg);}  
+   75% {transform:skew(-20deg);} 
+   100% {transform:skew(0deg);} 
+   } /* Keyframes for animating the Banner's main Heading */
+
 #wrapper
 {
     margin: 0;
     padding: 0;
     background: #5F09E0;
-}
+}/* No gradient for Tablet version CSS for easier viewing */
 
 
 
@@ -34,6 +43,7 @@ width: 90%;
     content: "";
     clear: both;
     display: table;
+    /* applied clearfix (see Readme for more info) */
 
 }
 
@@ -63,7 +73,7 @@ span{
     text-decoration-thickness: 3px;
     text-decoration-style: solid;
     text-decoration-color: #F4F3F8;
-}
+}/* used to change text-decoration of Welcome class */
 
 footer{
     padding: 15px;
@@ -85,6 +95,7 @@ article{
     content: "";
     clear: both;
     display: table;
+    /* applied clearfix (see Readme for more info) */
 }
 
 section{
@@ -100,6 +111,7 @@ section{
     content: "";
     clear: both;
     display: table;
+    /* applied clearfix (see Readme for more info) */
 }
 
 
@@ -111,39 +123,27 @@ aside{
 }
 
 video{
-    float: center;
+    float: none;
     margin: auto;
     background-color: black;
     border: 3px #F4F3F8 solid;
     content: "";
     clear: both;
     display: table;
-}
-
-.rendered-form{
-    font-family: 'Times New Roman', Times, serif;
-    color:#F4F3F8;
-    padding: 10px;
-    font-size: 20px;
-
-}
-
-.formbuilder{
-    margin-bottom: 50px;
+    /* applied clearfix (see Readme for more info) */
 }
 
 figcaption  
 { 
-    position:bottom; 
     text-align: center;
     font-size: 20px;
     color:white; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-} 
+} /* Caption Styling */
 
 
 video.projects{
-    float: center;
+    float: none;
     margin-top: 25px;
     background-color: black;
     border: 3px #F4F3F8 solid;
@@ -151,7 +151,8 @@ video.projects{
 
 h1{
     font-family: "lucida handwriting", "Segoe Script" ,"Times New Roman";
-    color: #E0D817
+    color: #E0D817;
+    animation: shape-shift 5s infinite;/* animation for Banner's Main Heading */
 }
 
 h2{
@@ -202,8 +203,7 @@ li a{
     content: "";
     clear: both;
     display: table;
-    
-   
+    /* applied clearfix (see Readme for more info) */
 }
 
 li a:hover{
@@ -211,6 +211,6 @@ li a:hover{
     color: #E00000;
     border-right: 2px solid #E00000;
     border-left: 2px solid #E00000;
-}
+} /* removed hover animations for easier use for Tablet users */
 
 
