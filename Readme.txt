@@ -1,6 +1,8 @@
 #REX PALLATH 100847414 INFR 3120 WEB & SCRIPT PROGRAMMING#
 ----------------------------------------------------------
 
+Website link: https://rexpallath.000webhostapp.com/ (for some reason 000webhost displays captions without styling, even though it work locally without issue, the captions are not black, rather white and centered below the videos)
+
 Hello, thanks for taking a look at my website, I had tons of fun playing around to make my website where it is now.
 
 The Website consists of 4 HTML file and 3 CSS files (Please disregard the contact copy1.HTMLfile as i am not sure how to remove it from Github repo, srry!)
